@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+	<title>Ionicsight | Reports for Business</title>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">	
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>	
+	<script src="js/ionicsight.js"></script>
+	
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/media_query.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+    
+</head>
+<body class="">
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="visible-xs pull-left search-icon" data-toggle="modal" data-target="#SearchModal" href="#"><span class="glyphicon glyphicon-search icon-large gray"></span></a>
+		  <div class="center navbar-brand-wrapper-xs">
+			<a class="navbar-brand " href="#"><span class="glyphicon glyphicon-repeat icon-large red"></span> IONICSIGHT</a>
+		  </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a data-toggle="modal" data-target="#SearchModal" href="#"><span class="glyphicon glyphicon-search icon-large gray"></span></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact Us</a></li>
+			<li><a class="btn btn-default sign-in" data-toggle="modal" data-target="#SigninModal" href="#">Sign in</a></li>
+			<li><a class="btn btn-danger sign-up" data-toggle="modal" data-target="#SignupModal" href="#">Sign up</a></li>
+          </ul>
+          <form class="navbar-form navbar-right hidden">
+			<input type="text" class="form-control" placeholder="Search...">			
+          </form>
+
+  
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-sm-3 col-md-2 hidden sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 main">
+          <div class="first-banner-area ">    			
+              <img src="images/happy-young-man-wearing-glasses.jpg" class="img-responsive" alt="Generic placeholder ">					
+          </div>
+		  <div class="clearfix screen-height"></div>
+		  <div class="first-banner-label-area ">
+			<div class="col-xs-12 col-sm-4 col-md-4 center dotcome-label-1">
+				<a class="btn btn-danger btn-xs-fill btn-lg-fill"><span class="glyphicon glyphicon-education icon-large"></span> Report Library</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 center dotcome-label-1">
+				<a class="btn btn-danger btn-xs-fill btn-lg-fill"><span class="glyphicon glyphicon-pawn icon-large"></span> Team</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 center dotcome-label-1">
+				<a class="btn btn-danger btn-xs-fill btn-lg-fill"><span class="glyphicon glyphicon-wrench icon-large"></span> Techies</a>
+			</div>		  
+		  </div>
+          <div class="second-banner-area ">               
+			  <div class="center placeholder second-banner-label-area">
+				<h4 class="h4-label gray">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4> 
+				<a href="#" class="btn btn-default btn-xs-fill btn-md-get-report">Get Report TOC Free </a>
+			  </div>
+          </div>
+          <div class="col-md-12 third-banner-area">                          
+              <div class="center  third-banner-label-area">
+				<h4 class="h4-label gray">Eroident, sunt in culpa qui ofim id est laborum.</h4> 
+				
+				<div class="col-md-4  subsciption-type">
+					<h4>Free</h4>
+					<ul>
+						<li>Sed ut perspiciatis</li>
+						<li>Nemo enim ipsam voluptatem</li>
+						<li>I will give you a complete </li>
+						<li>who avoids a pain that produces</li>					
+					</ul>
+					<a href="#" class="btn btn-lg btn-danger ">Get Free </a>
+				</div>
+				<div class="col-md-4 subsciption-type">
+					<h4>Gold</h4>
+					<ul>
+						<li>But I must explain to you</li>
+						<li>"Sed ut perspiciatis</li>
+						<li>who avoids a pain that produces</li>
+						<li>I will give you a complete </li>					
+					</ul>
+					<a href="#" class="btn btn-lg btn-danger ">Sign up now</a>
+				</div>
+				<div class="col-md-4 subsciption-type">
+					<h4>Platinum</h4>
+					<ul>
+						<li>I will give you a complete </li>
+						<li>Nemo enim ipsam voluptatem</li>
+						<li>"Sed ut perspiciatis</li>
+						<li>But I must explain to you</li>					
+					</ul>
+					<a href="#" class="btn btn-lg btn-danger ">Sign up now</a>
+				</div>
+				
+				
+			  </div>            
+          </div>
+          <div class="col-md-12 four-banner-area">            
+              <div class="center  four-banner-label-area">
+				<h4 class="h4-label gray">Area We Cover</h4>
+				<div class="col-md-12">
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/teenage-girls-doing.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Education</span>
+					</div>
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/solar-panels-and-wind-turbine.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Energy</span>
+					</div>
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/jet-turbine-airplane-engine.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Aronotics</span>
+					</div>
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/warehouse.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Logistice</span>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/hands-and-food-.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Logistice</span>
+					</div>
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/multiplex-movie.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Entertenment</span>
+					</div>
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/auto-repair.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Automotive</span>
+					</div>
+					<div class="col-sm-6 col-md-3  area-cover-iteam">
+						<img src="images/vitamins.jpg" class="img-responsive" alt="Generic placeholder ">
+						<span class="area-cover-iteam-label">Healthcare</span>
+					</div>
+				</div>
+              </div>           
+          </div>
+          <div class="five-banner-area">            
+              <img src="images/hand-holding-pen.jpg" class="img-responsive img-subscribme" alt="Generic placeholder ">
+			  <div class="center  five-banner-label-area">
+				<h4 class="h4-label white">Improve Your Business in right way. We are here for you. Get upcoming report info.</h4>
+				<a href="#" class="btn btn-lg btn-warning ">Subscribe Me for reports</a>          
+			  </div>
+              
+          </div>
+          <div class="col-md-12 six-banner-area ">                          
+			  <div class="center  six-banner-label-area">
+					<div class="col-sm-3 col-md-3  footer-cover">						
+						<a class="navbar-brand footer-site-logo hidden-sm" href="#"><span class="glyphicon glyphicon-repeat icon-large red"></span> IONICSIGHT</a>
+						<p class="hidden-sm">&nbsp;</p>
+						<p class="hidden-sm">&nbsp;</p>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-tree-deciduous icon-large gray"></a></span>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-queen icon-large gray"></a></span>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-grain icon-large gray"></a></span>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-apple icon-large gray"></a></span>
+					</div>
+					<div class="col-sm-3 col-md-3  footer-cover">
+						<h6>SOLUTIONS</h6>
+						<ul>
+							<li>Individuals</li>
+							<li>Business</li>
+							<li>Government</li>
+							<li>Academic</li>
+							<li>Free trial</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 col-md-3 footer-cover">						
+						<h6>Reports Area</h6>
+						<ul>
+							<li>Data professional</li>
+							<li>Architecture</li>
+							<li>Software development</li>
+							<li>Creative professional</li>
+							<li>ITc</li>
+						</ul>
+					</div>
+					<div class="col-md-3  footer-cover">						
+						<h6>SUPPORT</h6>
+						<ul>
+							<li>Help center</li>
+							<li>Contact</li>
+							<li>Blog</li>
+							<li>Careers</li>
+							<li>Knowledge base</li>
+						</ul>
+					</div>					
+			  </div>
+              
+          </div>	
+		  <div class="col-md-12 six-banner-area ">		  
+				<div class="center  six-banner-label-area">
+					<span class="footer-link pull-left">Copy Right @ IONICSIGHT </span> 
+					<span class="footer-link"><a href="" class="gray">Home</a></span>
+					<span class="footer-link"><a href="" class="gray">About us</a></span>					
+					<span class="footer-link"><a href="" class="gray">Contact us</a></span>
+				</div>
+		  </div>
+        </div>
+      </div>  
+    </div>  
+<!-- SignupModal -->
+  <div class="modal fade" id="SignupModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+		<form class="" action="">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Sign up</h4>
+			</div>
+			<div class="modal-body">
+			  <input type="text" class="btn-block searchbox" placeholder="Email Id"/>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Sign up</button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+      </div>
+      
+    </div>
+  </div>   
+<!-- SigninModal -->
+  <div class="modal fade" id="SigninModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+		<form class="" action="">		
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Sign in</h4>
+			</div>
+			<div class="modal-body">
+			  <input type="text" class="btn-block searchbox" placeholder="Username/Email Id"/>
+			  <input type="text" class="btn-block searchbox" placeholder="Password"/>
+			</div>
+			<div class="modal-footer">
+			  <a href="#" class="pull-left">Forgot password?</a>
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Sign in</button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+      </div>
+      
+    </div>
+  </div> 
+<!-- SearchModal -->
+  <div class="modal fade" id="SearchModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+		<form class="" action="">	  
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+			  <h4 class="modal-title ">Search</h4>
+			</div>
+			<div class="modal-body">
+			  <input type="text" class="btn-block searchbox" placeholder="Search here..."/>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+      </div>
+      
+    </div>
+  </div>
+<!-- SearchModal End -->		
+</body>
+</html>
