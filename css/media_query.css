@@ -1,0 +1,153 @@
+@media screen and (max-width: 480px) {
+  .btn-xs-fill {
+    width: 100%;
+    display: block;
+  }
+  .first-banner-area {
+    position: relative;
+  }
+  .screen-height {
+    height: auto;
+  }
+  .second-banner-area {
+    clear: both;
+  }
+  .second-banner-label-area {
+    padding: 100px 10px 100px 10px;
+  }
+  .dotcome-label-1:nth-child(1) {
+    padding: 10px 10px 5px 10px;
+  }
+  .dotcome-label-1:nth-child(2) {
+    padding: 5px 10px 5px 10px;
+  }
+  .dotcome-label-1:nth-child(3) {
+    padding: 5px 10px 10px 10px;
+  }
+  .h4-label {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .area-cover-iteam-label {
+    top: -110px;
+    font-size: 30px;
+  }
+  .five-banner-label-area {
+    bottom: 950px;
+  }
+  .navbar-brand-wrapper-xs {
+    padding: 10px;
+  }
+  .navbar-inverse .navbar-brand {
+    float: none;
+    padding: 5px;
+    font-size: large;
+  }
+  .navbar-inverse .search-icon {
+    padding: 12px 10px 8px 19px;
+    font-size: large;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .btn-xs-fill {
+    background: none;
+    border: 0;
+    font-size: 25px;
+  }
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+  .main {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .third-banner-area,
+  .four-banner-area {
+    padding-top: 10px;
+  }
+  .five-banner-label-area {
+    bottom: 400px;
+  }
+  .btn-md-get-report {
+    color: #333333;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid #ccc;
+  }
+  .btn-md-get-report:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .btn-xs-fill {
+    width: 100%;
+    display: block;
+  }
+  .dotcome-label-1:nth-child(1) {
+    padding: 10px 10px 5px 10px;
+  }
+  .dotcome-label-1:nth-child(2) {
+    padding: 5px 10px 5px 10px;
+  }
+  .dotcome-label-1:nth-child(3) {
+    padding: 5px 10px 10px 10px;
+  }
+  .first-banner-area {
+    position: relative;
+  }
+  .screen-height {
+    height: auto;
+  }
+  .second-banner-area {
+    clear: both;
+  }
+  .second-banner-label-area {
+    padding: 100px 10px 100px 10px;
+  }
+  .h4-label {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .five-banner-label-area {
+    bottom: 1000px;
+  }
+  .navbar-brand-wrapper-xs {
+    padding: 10px;
+  }
+  .navbar-inverse .navbar-brand {
+    float: none;
+    padding: 5px;
+    font-size: large;
+  }
+  .navbar-inverse .search-icon {
+    padding: 12px 10px 8px 19px;
+    font-size: large;
+  }
+}
+@media screen and (min-width: 992px) {
+  .btn-lg-fill {
+    background: none;
+    border: 0;
+    font-size: 25px;
+  }
+  .btn-md-get-report {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+  }
+}

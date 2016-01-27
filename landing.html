@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+	<title>Ionicsight | Reports for Business</title>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">	
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>	
+	<script src="js/ionicsight.js"></script>
+	
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/media_query.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+    
+</head>
+<body class="">
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="visible-xs pull-left search-icon" data-toggle="modal" data-target="#SearchModal" href="#"><span class="glyphicon glyphicon-search icon-large gray"></span></a>
+		  <div class="center navbar-brand-wrapper-xs">
+			<a class="navbar-brand " href="#"><span class="glyphicon glyphicon-repeat icon-large red"></span> IONICSIGHT</a>
+		  </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a data-toggle="modal" data-target="#SearchModal" href="#"><span class="glyphicon glyphicon-search icon-large gray"></span></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact Us</a></li>
+			<li><a class="btn btn-default sign-in" data-toggle="modal" data-target="#SigninModal" href="#">Sign in</a></li>
+			<li><a class="btn btn-danger sign-up" data-toggle="modal" data-target="#SignupModal" href="#">Sign up</a></li>
+          </ul>
+          <form class="navbar-form navbar-right hidden">
+			<input type="text" class="form-control" placeholder="Search...">			
+          </form>
+
+  
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-sm-2 col-md-1  sidebar-show">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> <span class="hidden">Dashboard <span class="sr-only">(current)</span></span></a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-plus-sign"></i><i class="glyphicon glyphicon-user red"></i> <span class="hidden"> Add Company</span></a></li>
+            <li><a href="#" class=""><i class="glyphicon glyphicon-plus-sign"></i><i class="glyphicon glyphicon-book red"></i> <span class="hidden">Create Report</span></a></li>
+            <li><a href="#" class="hidden">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar hidden">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-10 col-md-11 main">
+          <div class="landing-page-area  ">    			
+			 <div class="container-fluid hidden">
+				<ul class="nav navbar-nav navbar-left">				
+					<li>
+						<a>Iteam1</a>
+					</li>
+					<li>
+						<a>Iteam1</a>
+					</li>
+					<li>
+						<a>Iteam1</a>
+					</li>					
+				</ul>
+			 </div>
+			 <div class="container-fluid ">
+				<div class="col-md-5">
+					<h4 class="heading-4">Companies</h4>
+					<ul class="nav nav-sidebar ">
+						<li><a href="">Google <span class="pull-right">5</span></a></li>
+						<li><a href="">IBM <span class="pull-right">54</span></a></li>
+						<li><a href="">Symphoni <span class="pull-right">25</span></a></li>
+						<li><a href="">Arient <span class="pull-right">25</span></a></li>
+						<li><a href="">ANZ <span class="pull-right">25</span></a></li>
+						<li><a href="">Yahoo <span class="pull-right">25</span></a></li>
+						<li><a href="">Microsoft <span class="pull-right">25</span> </a></li>
+						<li><a href="">Simens <span class="pull-right">25</span></a></li>
+						<li><a href="">HCL <span class="pull-right">25</span></a></li>
+						<li><a href="">Accenture <span class="pull-right">25</span></a></li>
+						<li><a href="">AT&T <span class="pull-right">25</span></a></li>
+					</ul>
+				</div>
+				<div class="col-md-5">
+					<h4 class="heading-4">Categories</h4>
+					<ul class="nav nav-sidebar ">
+						<li><a href="">Education <span class="pull-right">25</span> </a></li>
+						<li><a href="">Energy <span class="pull-right">25</span></a></li>
+						<li><a href="">Aronotics <span class="pull-right">25</span></a></li>
+						<li><a href="">Logistice <span class="pull-right">25</span></a></li>
+						<li><a href="">Entertenment <span class="pull-right">5</span></a></li>
+						<li><a href="">Automotive <span class="pull-right">54</span></a></li>
+						<li><a href="">Healthcare <span class="pull-right">25</span></a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h4>Opration</h4>
+					<p>
+						NSFW. Samuel Jackson Ipsum. It comes with different versions. From less offensive to highly vulgar words. Don't think you want to use this to mess around with your clients. Unless they are Samuel Jackson's fan.
+					</p>				
+				</div>
+			 </div>
+              <img src="images/happy-young-man-wearing-glasses.jpg" class="img-responsive hidden" alt="Generic placeholder ">					
+          </div>
+		  
+
+          
+         
+
+         	
+
+        </div>
+      </div>  
+    </div>  
+	<div class=" container-fluid">
+		<div class="col-md-12 six-banner-area ">                          
+			  <div class="center  six-banner-label-area">
+					<div class="col-sm-3 col-md-3  footer-cover">						
+						<a class="navbar-brand footer-site-logo hidden-sm" href="#"><span class="glyphicon glyphicon-repeat icon-large red"></span> IONICSIGHT</a>
+						<p class="hidden-sm">&nbsp;</p>
+						<p class="hidden-sm">&nbsp;</p>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-tree-deciduous icon-large gray"></a></span>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-queen icon-large gray"></a></span>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-grain icon-large gray"></a></span>
+						<span class="social-icon"><a href="#"><span class="glyphicon glyphicon glyphicon-apple icon-large gray"></a></span>
+					</div>
+					<div class="col-sm-3 col-md-3  footer-cover">
+						<h6>SOLUTIONS</h6>
+						<ul>
+							<li>Individuals</li>
+							<li>Business</li>
+							<li>Government</li>
+							<li>Academic</li>
+							<li>Free trial</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 col-md-3 footer-cover">						
+						<h6>Reports Area</h6>
+						<ul>
+							<li>Data professional</li>
+							<li>Architecture</li>
+							<li>Software development</li>
+							<li>Creative professional</li>
+							<li>ITc</li>
+						</ul>
+					</div>
+					<div class="col-md-3  footer-cover">						
+						<h6>SUPPORT</h6>
+						<ul>
+							<li>Help center</li>
+							<li>Contact</li>
+							<li>Blog</li>
+							<li>Careers</li>
+							<li>Knowledge base</li>
+						</ul>
+					</div>					
+			  </div>
+              
+          </div>	
+		  <div class="col-md-12 six-banner-area ">		  
+				<div class="center  six-banner-label-area">
+					<span class="footer-link pull-left">Copy Right @ IONICSIGHT </span> 
+					<span class="footer-link"><a href="" class="gray">Home</a></span>
+					<span class="footer-link"><a href="" class="gray">About us</a></span>					
+					<span class="footer-link"><a href="" class="gray">Contact us</a></span>
+				</div>
+		  </div>		  
+	</div>
+<!-- SignupModal -->
+  <div class="modal fade" id="SignupModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+		<form class="" action="">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Sign up</h4>
+			</div>
+			<div class="modal-body">
+			  <input type="text" class="btn-block searchbox" placeholder="Email Id"/>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Sign up</button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+      </div>
+      
+    </div>
+  </div>   
+<!-- SigninModal -->
+  <div class="modal fade" id="SigninModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+		<form class="" action="">		
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Sign in</h4>
+			</div>
+			<div class="modal-body">
+			  <input type="text" class="btn-block searchbox" placeholder="Username/Email Id"/>
+			  <input type="text" class="btn-block searchbox" placeholder="Password"/>
+			</div>
+			<div class="modal-footer">
+			  <a href="#" class="pull-left">Forgot password?</a>
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Sign in</button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+      </div>
+      
+    </div>
+  </div> 
+<!-- SearchModal -->
+  <div class="modal fade" id="SearchModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+		<form class="" action="">	  
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+			  <h4 class="modal-title ">Search</h4>
+			</div>
+			<div class="modal-body">
+			  <input type="text" class="btn-block searchbox" placeholder="Search here..."/>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+      </div>
+      
+    </div>
+  </div>
+<!-- SearchModal End -->		
+</body>
+</html>
